@@ -1,0 +1,27 @@
+.header-page {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.main-page {
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+}
+.container {
+    width: var(--default-layout-width);
+    position: relative;
+    margin-top: 60px;
+}
+.sidebar {
+    position: fixed;
+    top: 60px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    margin-left: 230px;
+    width: calc(100% - 230px);
+}

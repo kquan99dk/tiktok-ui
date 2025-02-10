@@ -1,0 +1,20 @@
+.list-key {
+    padding: 16px 0;
+    color: rgba(22, 24, 35, 0.75);
+    font-weight: 600;
+    line-height: 20px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    &:hover {
+        background: rgba(22, 24, 35, 0.03);
+    }
+    &-icon {
+        font-size: 15px;
+        padding: 0 16px;
+    }
+    &-key {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,21 @@
+.wrapper {
+    width: 230px;
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+}
+.options {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    .icon {
+        width: 25px;
+        margin-right: 10px;
+    }
+    &:hover {
+        background-color: rgba(22, 24, 35, .03);
+    }
+}
+.active {
+    color: rgba(254, 44, 85, 1) !important;
+}

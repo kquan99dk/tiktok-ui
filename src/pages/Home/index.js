@@ -1,5 +1,6 @@
+import VideoNewsfeed from '~/components/VideoNewsfeed'
 function Home() {
-    return ( <h2>Home</h2> );
+    return ( <VideoNewsfeed  data={[1,2,3]} /> );
 }
 
 export default Home;
